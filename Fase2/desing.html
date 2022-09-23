@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+
+        padding: 0;
+    }
+
+    /*asignacion de color */
+    .encabezado {
+        background-color: rgb(119, 177, 177);
+    }
+
+    /* se centra el menu*/
+    .menu {
+        text-align: center;
+    }
+
+    /*centra el titulo*/
+    .titulo {
+        text-align: center;
+    }
+
+    /*separa el body de los bordes */
+    body {
+        margin: 30px;
+
+    }
+</style>
+
+
+<body>
+    <header>
+
+
+        <nav class="encabezado">
+            <ul class="menu">
+
+                <li>
+                    <a href="/index.html">Inicio</a>
+                    <select name="" id="">
+                        <option value="">Temas</option>
+                        <option value="">Tema 1</option>
+                        <option value="">Tema 2</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">Recursos Digitales</option>
+                        <option value="">Recurso 1</option>
+                        <option value="">Recurso 2</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">Aprendizaje</option>
+                        <option value="">Actividad 1</option>
+                        <option value="">Actividad 2</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">Acerca de</option>
+                        <option value="">Autor</option>
+
+                    </select>
+                    <img src="/Fase2/projects_237_1644003129108-logo-acred.png" alt="" height="200">
+
+                </li>
+
+
+
+
+            </ul>
+        </nav </header>
+
+
+
+        <article>
+            <section>
+                <h1 class="titulo">
+                    Conceptos de Flex Box, Listas y enlaces en HTML
+
+                </h1><br>
+                <h1>
+                    Propósito del sitio
+                </h1>
+
+
+
+                <p>
+                    Dar un vistaso al metodo de diseño deuna pagina unidimencional para
+                    conaginar elementos en filas y columnas. <br>
+
+                    Conocer los diferentes usos de las listas en html
+                    y como se pueden emplear en una pagina
+                </p>
+                <section>
+                    <h2> Imagen</h2>
+                    <img src="/img/Captura de pantalla 2022-09-15 191930.png" alt="">
+                </section>
+
+                <h2> Conceptos Básicos de flexbox</h2>
+                <p>
+                    El Módulo de Caja Flexible, comúnmente llamado flexbox, fue diseñado como un modelo unidimensional
+                    de
+                    layout,
+                    y como un método que pueda ayudar a distribuir el espacio entre los ítems de una interfaz y mejorar
+                    las
+                    capacidades
+                    de alineación. Este artículo hace un repaso de las principales características de flexbox, las que
+                    exploraremos con
+                    mayor detalle en el resto de estas guías.
+
+                    Cuando describimos a flexbox como unidimensional
+                    destacamos el hecho que flexbox maneja el layout en una sola dimensión a la vez ya sea como fila o
+                    como
+                    columna.
+                    Esto contrasta con el modelo bidimensional del Grid Layout de CSS, el cual controla columnas y filas
+                    a
+                    la
+                    vez.?<br>
+                </p>
+
+
+
+                <h3>Los dos ejes de flexbox </h3>
+                <p>
+                    Cuando trabajamos con flexbox necesitamos pensar en términos de dos ejes el eje principal y el eje
+                    cruzado.
+                    El eje principal está definido por la propiedad flex-direction,
+                    y el eje cruzado es perpendicular a este. <br>
+                    Todo lo que hacemos con flexbox está referido a estos dos ejes, por lo que vale la pena entender
+                    cómo
+                    trabajan desde el principio.
+                </p>
+
+                <h3>El eje principal </h3>
+                <p>
+                    El eje principal está definido por flex-direction, que posee cuatro posibles valores: <br>
+
+                    1.row <br>
+                    2. row-reverse <br>
+                    3.column <br>
+                    4. column-reverse <br>
+
+                    Si elegimos row o row-reverse, el eje principal correrá a lo largo de la fila según la dirección de
+                    la
+                    línea
+
+                </p>
+                <h3>Listas HTML </h3>
+                <p>
+
+                    Las listas en HTML nos permite crear conjuntos de elementos en forma de lista dentro de una página,
+                    todos los cuales irán precedidos, generalmente, por un guión o número.
+
+                    Los tipos de listas en HTML son los siguientes:<br>
+                    <br>
+                    Listas ordenadas <br>
+                    Listas desordenadas <br>
+                    Listas de definiciones <br>
+                </p>
+                <h3>Listas Ordenadas </h3>
+                <p>
+                    Las listas en HTML ordenadas son aquellas que nos muestran
+                    los elementos de la lista en orden. Para representar el orden tendremos
+                    los elementos numerados. Es decir, cada uno de los elementos irá precedido
+                    de un número o letra que establezca su orden.
+                    <br>
+
+                    Las listas en HTML ordenadas se representan mediante el elemento OL.
+
+                <ol> </ol>
+                Cada uno de los elementos de la lista ordenada se representará mediante el elemento LI.
+
+                <ol>
+                    <li>Elemento 1</li>
+                    <li>Elemento 2</li>
+                    <li>Elemento N</li>
+                </ol>
+                Un ejemplo de lista ordenada sería el siguiente:
+
+                <ol>
+                    <li>Julio</li>
+                    <li>Carmen</li>
+                    <li>Ignacio</li>
+                    <li>Elena</li>
+                </ol>
+                Que produciría el siguiente efecto:
+
+                Julio
+                Carmen
+                Ignacio
+                Elena
+                </p>
+
+            </section>
+            <br>
+            <br>
+
+        </article>
+        <br>
+
+        <br>
+        <footer>
+            live:.cid.3d823ee8bc318654 <br>
+            21/09/2022
+        </footer>
+</body>
+
+</html>
