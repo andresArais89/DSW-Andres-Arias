@@ -11,6 +11,7 @@ body
 {/*Para conseguir el comportamiento que buscamos, tenemos que convertir el body en un contenedor flex, y hacer que su alto mínimo se adapte como mínimo al 100% del alto del viewport*/
  background-size: cover; 
  background-color: #f7cb12;
+
 }
 nav
 {
@@ -65,4 +66,13 @@ text-decoration: none;
    padding: 15px 15px 15px 20px;
    text-decoration: none;
 
+}
+.articulo
+{
+   margin: auto;
+   width: 100%;
+   max-width: 60000px;
+   
+  
+  
 }
