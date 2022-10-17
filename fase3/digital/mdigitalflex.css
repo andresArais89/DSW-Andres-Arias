@@ -39,7 +39,7 @@ text-decoration: none;
 }
 .menu-horizontal > li:hover
 {
- background-color: red;
+ background-color: #f7cb12;
 }
 .menu-vertical
 {
@@ -65,4 +65,21 @@ text-decoration: none;
    padding: 15px 15px 15px 20px;
    text-decoration: none;
 
+}
+.articulo
+{
+   max-width: 900px;
+   margin: auto;
+  
+   font-size: 20px;
+   margin-top: 50px;
+    
+}
+.video
+{
+   max-width: 900px;
+   margin: auto;
+  
+   font-size: 20px;
+   margin-top: 50px;
 }
