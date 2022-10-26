@@ -1,22 +1,19 @@
-
-
+/*resetear lo estilo que tiene la pagina por defecto*/
 *
 {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   font-family: "open sans";
+  margin: 0;
+ padding: 0;
 }
+/*estilos del body*/
 body
-{/*Para conseguir el comportamiento que buscamos, tenemos que convertir el body en un contenedor flex, y hacer que su alto mínimo se adapte como mínimo al 100% del alto del viewport*/
- background-size: cover; 
- background-color: #f7cb12;
+{
+ background-color: rgb(252, 205, 15);
 }
 nav
 {
-  max-width: 900px;
+  max-width: 9000px;
   margin: auto;
-  background-color: rgba(51, 51, 51, 0.836);
+  background-color: hwb(0 0% 100% / 0.765);
   font-size: 20px;
   margin-top: 50px;
    
@@ -66,3 +63,101 @@ text-decoration: none;
    text-decoration: none;
 
 }
+.title h1
+{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2.9em;
+    text-transform: uppercase;
+}
+.container
+{
+
+     background-color:rgb(252, 205, 15);
+     width: 90%;
+     max-width: 10000px;
+     margin: 1.6em auto;
+     display: grid;
+     gap:1.6em;
+     grid-template-columns: repeat(5, 1fr);
+}
+.header
+{
+  grid-column : 1/6;
+ 
+  padding: 20px;
+  margin-top: 5px;
+ 
+}
+.container > .header,
+.container > .content,
+.container > .sidebar,
+.container > .footer,
+.container > .div
+{
+    background: rgb(252, 205, 15);
+    padding: 20px;
+    border:  0px solid #000000;
+}
+.container.header,
+.container.footer
+{
+  
+  grid-column : 1/5;
+  background:#000000 ;
+  color: #ffffff;
+  border:  1px solid #000000;
+}
+.container > .content
+{
+  grid-column: span 3;
+}
+.content > .article
+{
+  background: hwb(0 0% 100% / 0.724);
+  padding: 20px;
+  margin-top: 5px;
+  color: #dfe6e9;
+}
+.container > .sidebar
+{
+ grid-column: span 2;
+ background: hsla(0, 0%, 0%, 0.724);
+  padding: 20px;
+  margin-top: 5px;
+  color: #dfe6e9;
+}
+.posicion-relativa
+{
+ 
+ 
+  background: hsla(0, 0%, 0%, 0.613);
+  padding: 20px;
+  margin-top: 5px;
+  color: #dfe6e9;
+  
+}
+.pie
+{
+  grid-column : 1/6;
+  background: hwb(0 0% 100% / 0.724);
+  padding: 20px;
+  margin-top: 5px;
+  color: #ffffff;
+}
+@media screen and ( max-width : 768px)
+{
+  .header
+  {
+    text-align: center;
+  }
+  .container.content
+  {
+    grid-column: 1/-1;
+  }
+  .container.sideber
+  {
+    grid-column: 1/-1;
+  }
+}
+  
